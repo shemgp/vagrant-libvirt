@@ -107,6 +107,13 @@ apt-get install qemu libvirt-bin ebtables dnsmasq-base
 apt-get install libxslt-dev libxml2-dev libvirt-dev zlib1g-dev ruby-dev
 ```
 
+* Ubunty 18.04:
+```shell
+sudo apt build-dep vagrant ruby-libvirt
+sudo apt install qemu libvirt-bin ebtables dnsmasq-base \
+libxslt1-dev libxml2-dev libvirt-dev zlib1g-dev ruby-dev
+```
+
 (It is possible some users will already have libraries from the third line installed, but this is the way to make it work OOTB.)
 
 * CentOS 6, 7, Fedora 21:
